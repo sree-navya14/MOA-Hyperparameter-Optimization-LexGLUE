@@ -40,8 +40,8 @@ Evaluation (F1-micro, F1-macro, Hamming Loss)
 - Output: Violated ECHR articles (multi-label)  
 - Highly imbalanced dataset, making optimization important  
 
-**Dataset NOT included** due to licensing.  
-Download here: https://huggingface.co/datasets/lex_glue
+**Dataset**
+Download here: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multilabel.html#ECtHR%20(A)%20(LexGLUE)
 
 ---
 
@@ -111,13 +111,12 @@ The following metrics were used to evaluate all classifiers:
 - Chalkidis, I., Fergadiotis, M., Tsarapatsanis, D., Aletras, N., & Androutsopoulos, I.  
   **LexGLUE: A Benchmark Dataset for Legal Language Understanding in English.**  
   arXiv:2110.00976 (2021).  
-  https://arxiv.org/abs/2110.00976  
+  https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multilabel.html#ECtHR%20(A)%20(LexGLUE)
 
 - Zervoudakis, K., & Tsafarakis, S.  
   **Mayfly Optimization Algorithm.**  
-  Computers & Industrial Engineering, Elsevier.  
-  https://www.sciencedirect.com/science/article/pii/S0360835220302120  
-
+  Computers & Industrial Engineering, Elsevier.
+  
 - HuggingFace Model Card  
   **nlpaueb/legal-bert-base-uncased**  
   https://huggingface.co/nlpaueb/legal-bert-base-uncased
