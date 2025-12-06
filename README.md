@@ -13,7 +13,7 @@ This project demonstrates that **optimized classical ML models**—combined with
 The workflow includes:
 
 1. Extracting 768-dimensional embeddings using **Legal-BERT**
-2. Training classical classifiers (SVM, Logistic Regression, MLkNN, Random Forest, XGBoost)
+2. Training classical classifiers (SVM, Logistic Regression, MLkNN, XGBoost)
 3. Using **MOA** for hyperparameter tuning
 4. Evaluating models using multi-label metrics such as F1-micro
 
@@ -27,7 +27,7 @@ Legal-BERT Embeddings (CLS Vector, 768d)
       ↓
 Mayfly Optimization Algorithm (Hyperparameter Search)
       ↓
-Optimized Classifiers (SVM, LR, MLkNN, RF, XGB)
+Optimized Classifiers (SVM, LR, MLkNN, XGB)
       ↓
 Evaluation (F1-micro, F1-macro, Hamming Loss)
 
