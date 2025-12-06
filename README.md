@@ -21,6 +21,8 @@ The workflow includes:
 
 ## 🏗️ Architecture
 
+```markdown
+
 Document Text
       ↓
 Legal-BERT Embeddings (CLS Vector, 768d)
@@ -31,6 +33,7 @@ Optimized Classifiers (SVM, LR, MLkNN, XGB)
       ↓
 Evaluation (F1-micro, F1-macro, Hamming Loss)
 
+```
 ---
 
 ## 🔍 Dataset: ECtHR Task B (LexGLUE)
